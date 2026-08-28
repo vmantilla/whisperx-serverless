@@ -32,3 +32,8 @@ La salida es JSON chico → inline (no usa R2 de salida).
 6. Copia el **Endpoint ID** → Fototeca `.env`: `WHISPERX_ENDPOINT_ID` (usa el mismo `RUNPOD_API_KEY`).
 
 Nota: si 16GB escasea, baja a `WHISPER_MODEL=medium` (menos VRAM, casi igual de bueno para letra).
+
+## Historial de despliegue
+
+- **2026-08-28** — se añade la tarea `translate` (MADLAD-400). Requiere container
+  disk ≥45GB porque los pesos van dentro de la imagen.
