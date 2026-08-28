@@ -29,3 +29,5 @@ AutoTokenizer.from_pretrained(m); T5ForConditionalGeneration.from_pretrained(m)"
 
 COPY handler.py /handler.py
 CMD ["python3", "-u", "/handler.py"]
+
+# Build: 2026-08-28T05:14:10Z
